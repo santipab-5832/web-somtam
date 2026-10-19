@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Build output (tsc -> dist/)
+dist/
+*.tsbuildinfo
+
+# Environment variables (keep .env.example as a template)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Caches / temp
+.eslintcache
+.cache/
+tmp/
+temp/
+
+# Docker (local overrides and bind-mounted data, if any)
+docker-compose.override.yml
+pgdata/
+postgres-data/
+
+# Claude Code (personal settings)
+.claude/settings.local.json
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# OS (Windows / macOS)
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
